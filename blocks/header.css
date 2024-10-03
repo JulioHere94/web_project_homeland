@@ -43,6 +43,10 @@ flex-direction: column;
 }
 
 @media screen and (max-width: 544px){
+  /* .header__logo{
+    width: 74%;
+  } */
+
   .header__title{
     padding-top: 50px;
     font-size: 40px;
