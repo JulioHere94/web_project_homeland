@@ -39,17 +39,6 @@
   padding-top: 32px;
 }
 
-.section__photo-grid{
-  max-width: 100%;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin: 0 auto;
-  padding-left: 48px;
-  padding-right: 48px;
-  padding-top: 118px;
-}
-
 
 @media screen and (max-width: 1024px){
   .content__section{
@@ -60,13 +49,6 @@
 
   .content__title{
     font-size: 45px;
-  }
-
-  .section__photo-grid{
-    grid-template-columns: repeat(2, 1fr);
-    padding-left: 24px;
-    padding-right: 24px;
-    padding-top: 64px;
   }
 
 }
@@ -82,14 +64,6 @@
   .content__title{
     padding-top: 64px;
     font-size: 32px;
-  }
-
-  .section__photo-grid{
-    grid-template-columns: auto;
-    padding-left: 16px;
-    padding-top: 36px;
-    padding-bottom: 62px;
-
   }
 
 }

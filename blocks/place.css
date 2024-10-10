@@ -49,7 +49,7 @@
   margin: 0;
 }
 
-.text-2{
+.place__paragraph2{
   margin-top: 25px;
 }
 
@@ -69,7 +69,7 @@
   align-self: start;
 }
 
-.heading-title{
+.place__url-title{
 font-size: 12px;
 line-height: 1.21;
 letter-spacing: 0.12em;
