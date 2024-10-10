@@ -1,4 +1,4 @@
-.section__photo-grid{
+.photo-grid{
   max-width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -11,7 +11,7 @@
 
 
 @media screen and (max-width: 1024px){
-  .section__photo-grid{
+  .photo-grid{
     grid-template-columns: repeat(2, 1fr);
     padding-left: 24px;
     padding-right: 24px;
@@ -20,7 +20,7 @@
 }
 
 @media screen and (max-width: 544px){
-  .section__photo-grid{
+  .photo-grid{
     grid-template-columns: auto;
     padding-left: 16px;
     padding-top: 36px;
